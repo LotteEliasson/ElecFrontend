@@ -1,0 +1,15 @@
+.menu-horizontal {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.menu-horizontal a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.menu-horizontal a:hover {
+  text-decoration: underline;
+}
