@@ -6,6 +6,8 @@ import DOMPurify from 'dompurify';
 import Navbar from './components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import UserList from './components/userList';
+
 
 const router = new Navigo('/', { hash: true });
 
@@ -83,6 +85,7 @@ function User() {
       </div>
 
       <h2>User Information</h2>
+      <UserList />
       <p></p>
     </div>
   );
