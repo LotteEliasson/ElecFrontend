@@ -1,63 +1,57 @@
-import { useContext } from "react";
-import AuthContext from "../context/AuthContext";
+// components/Navbar.js
 
+import { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import { Navbar as BootstrapNavbar, Nav, Container } from 'react-bootstrap';
+import AuthContext from '../context/AuthContext';
 
 function Navbar() {
-  const {isLoggedIn, role, logout} = useContext(AuthContext);
 
-
+  const { isLoggedIn, role, logout } = useContext(AuthContext);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container-fluid">
-        <a className="navbar-brand" href="/">Database Management</a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul id="menu" className="navbar-nav">
-              <li className="nav-item active">
-                <a className="nav-link" href="/" data-navigo>Home</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/about" data-navigo>About</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/contact" data-navigo>Contact</a>
-              </li>
-              {!isLoggedIn ? (
-                
-              <li className="nav-item">
-                <a className="nav-link" href="/login" data-navigo>Login</a>
-              </li>
-
-              ) : (
+    <BootstrapNavbar bg="dark" variant="dark" expand="lg">
+      <Container>
+        <BootstrapNavbar.Brand as={Link} to="/">
+          Electrical Parts
+        </BootstrapNavbar.Brand>
+        <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
+        <BootstrapNavbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link as={Link} to="/">
+              Home
+            </Nav.Link>
+            <Nav.Link as={Link} to="/about">
+              About
+            </Nav.Link>
+            <Nav.Link as={Link} to="/contact">
+              Contact
+            </Nav.Link>
+            {!isLoggedIn ? (
+            <>
+              <Nav.Link as={Link} to="/signup">
+                Signup
+              </Nav.Link>
+              <Nav.Link as={Link} to="/login">
+                Login
+              </Nav.Link>
+            </>
+            ):(
               <>
-              {role === 'admin' && (
-                <>
-                  <li className="nav-item">
-                    <a className="nav-link" href="/user" data-navigo>User</a>
-                  </li>
-                </>
+              {role === "admin" && (
+                <Nav.Link as={Link} to="/user">
+                  User
+                </Nav.Link>
               )}
-                <li className="nav-item">
-                  <a className="nav-link" href="/" onClick={() => logout() }>Logout</a>
-                </li>
-               
-              </>
-              )}
-            </ul>
-          </div>
-        </div>
-    </nav>
+              <Nav.Link as={Link} to="/" onClick={logout}>
+                Logout
+              </Nav.Link>
+            </>
+          )}
+          </Nav>
+        </BootstrapNavbar.Collapse>
+      </Container>
+    </BootstrapNavbar>
   );
 }
 

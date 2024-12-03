@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { userDetails } from '../service/userService';
+import { userDetails } from '../../service/userService';
 
  function UserDetails() {
   const [details, setdetails] = useState([])

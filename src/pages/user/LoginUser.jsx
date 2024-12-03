@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
-import { loginUser } from "../service/userService";
-import { router } from "../App";
-import AuthContext from "../context/AuthContext";
+import { loginUser } from "../../service/userService";
+import { useNavigate } from "react-router-dom";
+import AuthContext from "../../context/AuthContext";
 
 
 function LoginUser() {
@@ -11,6 +11,7 @@ function LoginUser() {
 
   // Access the login function from AuthContext
   const { login } = useContext(AuthContext);
+  const navigate = useNavigate();
 
   const handleLogin = async(e) => {
     //Prevent browser from unintentionally reloading the page/ submitting the form
@@ -23,7 +24,7 @@ function LoginUser() {
       if(data && data.token){
         login(data.token);
         setMessage('login successful');
-        router.navigate('/user');
+        navigate('/user');
 
       } else {
         setMessage('invalid email or password');
