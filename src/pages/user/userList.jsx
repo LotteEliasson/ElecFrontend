@@ -1,6 +1,7 @@
   import { useState, useEffect } from "react";
   import { fetchUsers, updateUser, deleteUser } from '../../service/userService'
   import { Modal, Button, Form } from 'react-bootstrap';
+  import UserDetails from '../../components/UserDetails'
   import './UserList.css';
 
 
@@ -87,10 +88,11 @@
     const deleteCancel = () => {
       setShowDeleteModal(false);
       setUserToDelete(null);
-
     }
+    
     return(
       <div className="container mt-4">
+        <UserDetails />
         <h2 className="mb-4">User List</h2>
         <table className="table table-striped">
           <thead className="thead-dark">

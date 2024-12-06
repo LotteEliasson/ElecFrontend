@@ -39,9 +39,17 @@ function Navbar() {
             ):(
               <>
               {role === "admin" && (
-                <Nav.Link as={Link} to="/user">
-                  User
-                </Nav.Link>
+                <>
+                  <Nav.Link as={Link} to="/user">
+                    User
+                  </Nav.Link>
+                  <Nav.Link as={Link} to="/ships">
+                    Ship
+                  </Nav.Link>
+                  <Nav.Link as={Link} to="/owner">
+                    Owner
+                  </Nav.Link>
+                </>
               )}
               <Nav.Link as={Link} to="/" onClick={logout}>
                 Logout

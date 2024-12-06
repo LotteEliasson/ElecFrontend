@@ -35,7 +35,7 @@ function UserSignup() {
     
     const { username, email, password, company, userrole } = formData;
     if (!username || !email || !password || !company || !userrole) {
-      setError('Alle felter skal udfyldes.');
+      setError('All fields should be filled.');
       return;
     }
 
@@ -56,7 +56,7 @@ function UserSignup() {
       if (err.response && err.response.data && err.response.data.message) {
         setError(err.response.data.message);
       } else {
-        setError('Der opstod en fejl ved oprettelse af bruger.');
+        setError('Error trying to create new user.');
       }
     }
   };
