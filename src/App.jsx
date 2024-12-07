@@ -13,6 +13,7 @@ import UserList from './pages/user/userList';
 import UserSignup from './pages/user/UserSignup';
 import ShipList from './pages/ship/shipList';
 import OwnerList from './pages/owner/OwnerList';
+import EngineList from './pages/engine/EngineList';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/user" element={<UserList />} />
           <Route path="/ships" element={<ShipList />} />
           <Route path="/owner" element={<OwnerList />} />
+          <Route path="/engine" element={<EngineList />} />
           {/* Catch all other routes */}
           <Route path="*" element={<NotFound />} />
         </Routes>

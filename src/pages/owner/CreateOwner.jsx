@@ -46,8 +46,8 @@ function CreateOwner({ onOwnerCreated }) {
 
   return (
     <div>
-      <Button onClick={handleShow} variant="primary">
-        Add Owner
+      <Button onClick={handleShow} variant="secondary">
+        Add Owner to Database
       </Button>
 
       <Modal show={showModal} onHide={handleClose}>

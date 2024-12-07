@@ -49,6 +49,9 @@ function Navbar() {
                   <Nav.Link as={Link} to="/owner">
                     Owner
                   </Nav.Link>
+                  <Nav.Link as={Link} to="/engine">
+                    Engine
+                  </Nav.Link>
                 </>
               )}
               <Nav.Link as={Link} to="/" onClick={logout}>

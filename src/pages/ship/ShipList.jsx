@@ -135,6 +135,7 @@ function ShipList(){
             <th scope="col">Designspec</th>
             <th scope="col">Owners Name</th>
             <th scope="col">imo no</th>
+            <th scope="col">Actions</th>
           </tr>
         </thead>
         <tbody>

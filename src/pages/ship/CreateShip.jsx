@@ -69,8 +69,8 @@ function CreateShip({ onShipCreated }) {
 
   return (
     <div>
-      <Button onClick={handleShow} variant="primary">
-        Add Ship
+      <Button type="button" onClick={handleShow} className="btn btn-secondary btn-sm edit-button">
+        Add Ship to the Database
       </Button>
 
       <Modal show={showModal} onHide={handleClose}>
@@ -139,10 +139,10 @@ function CreateShip({ onShipCreated }) {
           </Form>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button tyoe="button" onClick={handleClose} className="btn btn-secondary btn-sm edit-button">
             Close
           </Button>
-          <Button variant="primary" onClick={handleSave}>
+          <Button type="button" onClick={handleSave} className="btn btn-primary btn-sm edit-button">
             Save Changes
           </Button>
         </Modal.Footer>
