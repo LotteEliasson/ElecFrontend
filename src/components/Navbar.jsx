@@ -52,6 +52,12 @@ function Navbar() {
                   <Nav.Link as={Link} to="/engine">
                     Engine
                   </Nav.Link>
+                  <Nav.Link as={Link} to="/components">
+                    Components
+                  </Nav.Link>
+                  <Nav.Link as={Link} to="/junctionBox">
+                    Junction Box
+                  </Nav.Link>
                 </>
               )}
               <Nav.Link as={Link} to="/" onClick={logout}>
