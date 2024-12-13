@@ -58,6 +58,9 @@ function Navbar() {
                   <Nav.Link as={Link} to="/junctionBox">
                     Junction Box
                   </Nav.Link>
+                  <Nav.Link as={Link} to="/manuals">
+                    Manuals
+                  </Nav.Link>
                 </>
               )}
               <Nav.Link as={Link} to="/" onClick={logout}>

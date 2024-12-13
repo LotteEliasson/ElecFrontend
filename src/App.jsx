@@ -16,6 +16,7 @@ import OwnerList from './pages/owner/OwnerList';
 import EngineList from './pages/engine/EngineList';
 import ComponentList from './pages/components/Componentlist';
 import JunctionBoxList from './pages/junctionBox/JunctionBoxList'
+import ManualList from './pages/manuals/ManualList';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/engine" element={<EngineList />} />
           <Route path="/components" element={<ComponentList />} />
           <Route path="/junctionBox" element={<JunctionBoxList />} />
+          <Route path="/manuals" element={<ManualList />} />
           {/* Catch all other routes */}
           <Route path="*" element={<NotFound />} />
         </Routes>
