@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Modal, Button, Form } from "react-bootstrap";
 import UserDetails from "../../components/UserDetails";
-import { fetchManuals, deleteManual, updateManual, downloadManual, saveManualToFile } from "../../service/manualService";
+import { fetchManuals, deleteManual, createManual, updateManual, downloadManual, saveManualToFile } from "../../service/manualService";
 import { fetchShips } from "../../service/shipService";
 import CreateManual from "./CreateManuals";
 
@@ -99,7 +99,18 @@ function ManualList() {
         formData.append("file", selectedManual.file); // Include file if present
       }
 
+      console.log("FormData Contents:");
+        for (const [key, value] of formData.entries()) {
+          console.log(`${key}:`, value);
+        }
+
       await updateManual(selectedManual.manual_id, formData);
+          
+      console.log("FormData before sending:");
+        for (const [key, value] of formData.entries()) {
+          console.log(`${key}:`, value);
+        }
+        
       getManuals();
       handleClose();
     } catch (error) {
@@ -107,12 +118,18 @@ function ManualList() {
     }
   };
 
+
+
+
+
   const handleCloseDelete = () => setShowDeleteModal(false);
 
   const handleDelete = (manual) => {
     setManualToDelete(manual);
     setShowDeleteModal(true);
   };
+
+
 
   const confirmDelete = async () => {
     if (!manualToDelete) return;

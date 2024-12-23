@@ -38,7 +38,7 @@ function Navbar() {
             </>
             ):(
               <>
-              {role === "admin" && (
+              {role === "internal" && (
                 <>
                   <Nav.Link as={Link} to="/user">
                     User

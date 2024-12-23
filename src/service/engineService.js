@@ -6,7 +6,7 @@ export const fetchEngines = async () => {
     return response.data;
   } catch (error) {
     console.error("Error fetching engines", error);
-    throw error; // Re-throw error for further handling
+    throw error; 
   }
 };
 
@@ -16,7 +16,7 @@ export const createEngine = async (engineData) => {
     return response.data;
   } catch (error) {
     console.error("Error creating engine", error);
-    throw error; // Re-throw error for further handling
+    throw error; 
   }
 };
 
