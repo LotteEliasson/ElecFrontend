@@ -14,7 +14,7 @@ import UserSignup from './pages/user/UserSignup';
 import ShipList from './pages/ship/ShipList';
 import OwnerList from './pages/owner/OwnerList';
 import EngineList from './pages/engine/EngineList';
-import ComponentList from './pages/components/Componentlist';
+import ComponentList from './pages/components/ComponentList';
 import JunctionBoxList from './pages/junctionBox/JunctionBoxList'
 import ManualList from './pages/manuals/ManualList';
 
