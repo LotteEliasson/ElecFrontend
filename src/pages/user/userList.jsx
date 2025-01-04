@@ -2,7 +2,7 @@
   import { fetchUsers, updateUser, deleteUser } from '../../service/userService'
   import { Modal, Button, Form } from 'react-bootstrap';
   import UserDetails from '../../components/UserDetails'
-  import './UserList.css';
+  import './userList.css';
 
 
   function UserList(){
