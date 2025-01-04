@@ -11,7 +11,7 @@ import NotFound from './pages/NotFound'
 import LoginUser from './pages/user/LoginUser';
 import UserList from './pages/user/userList';
 import UserSignup from './pages/user/UserSignup';
-import ShipList from './pages/ship/shipList';
+import ShipList from './pages/ship/ShipList';
 import OwnerList from './pages/owner/OwnerList';
 import EngineList from './pages/engine/EngineList';
 import ComponentList from './pages/components/Componentlist';
