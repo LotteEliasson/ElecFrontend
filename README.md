@@ -15,14 +15,14 @@ Samtidig er det muligt at:
 ### Efter login(beskrevet unde mobilapp længere nede) kan man via TABS-menuen i bunden af skærmen vælge 
 - **Cabinet Details**
   - Scan vedlagte QR-kode
-   - Denne menu vil vise en liste af pressable komponenter, vis de trykkes på åbner en modal, hvor nye muligheder vises:
-    - Order Component (mulighed for at efterspørge det komponent der er trykket på)
-    - More Details (mulighed for at se pdf-dokumentation på komponentet
+    - Denne menu vil vise en liste af pressable komponenter, vis de trykkes på åbner en modal, hvor nye muligheder vises:
+      - Order Component (mulighed for at efterspørge det komponent der er trykket på)
+      - More Details (mulighed for at se pdf-dokumentation på komponentet
 - **Picture Dokumentation**
- - Scan vedlagte GR-kode
-  - Denne menu giver mulighed for at oprette dokumentation på udført arbejde
-   - Udfyld felter
-   - Tag et billede ved at trykke på kamera-ikon
+  - Scan vedlagte GR-kode
+    - Denne menu giver mulighed for at oprette dokumentation på udført arbejde
+      - Udfyld felter
+      - Tag et billede ved at trykke på kamera-ikon
 - **Drawer menuen venstre øverst giver flere muligheder for at se detaljer om**
   - Ship
   - Engine
