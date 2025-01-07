@@ -5,7 +5,7 @@ Et fullstack projekt der kan håndtere hvilke elektriske komponenter der har kor
 Her kan udføres alle CRUD operationer, dens primære formål er at administrere databasen.
 Samtidig er det muligt at se dokumentation tilføjet fra brugerne af mobil applikationen.
 
-## Mobil applikationen
+## Mobilapplikationen
 Dens primære formål at vise den origanle dokumentation efter  hvilken hovedmoter der arbejdes på.
 Samtidig er det muligt at: 
   - Efterspørge nye komponenter via en autogeneret Email
@@ -27,8 +27,9 @@ QR-KODE skal anvendes til at scanne i mobilapplikationen:
 *(Tilføj links til de relevante GitHub-repositories her)*
 
 ## BACKEND
-Naviger til backend-mappen og installer afhængigheder:  
+### Naviger til backend-mappen og installer afhængigheder:  
 cd backend  # Erstat med det faktiske mappenavn  
+### Installer dependencies:
 npm install
 
 ### Opret en .env fil i roden af projektet
@@ -45,9 +46,10 @@ EMAIL_PASS=giqprxavhbpfqgpp
 ### Start backend:  
 node server.js  
 
-## Webapplikation
-Naviger til webapplikation-mappen og installer afhængigheder:  
-cd webapplikation  # Erstat med det faktiske mappenavn  
+## WEBAPPLIKATIONEN
+### Naviger til webapplikation-mappen og installer afhængigheder:  
+cd webapplikation  # Erstat med det faktiske mappenavn
+### Installer dependencies:
 npm install
 
 ### Start webapplikationen:  
@@ -59,9 +61,10 @@ User: alice@example.com
 Password: password123  
 
 
-## Mobilapplikation
-Naviger til mobilapplikation-mappen og installer afhængigheder:  
+## MOBILAPPLIKATIONEN
+### Naviger til mobilapplikation-mappen og installer afhængigheder:  
 cd mobilapplikation  # Erstat med det faktiske mappenavn  
+### Installer dependencies:
 npm install  
 
 ### Start mobilapplikationen:  
