@@ -6,7 +6,10 @@ Et fullstack projekt der kan håndtere hvilke elektriske komponenter der har kor
 
 ## Webapplikationen
 Her kan udføres alle CRUD operationer, dens primære formål er at administrere databasen.
+
 Samtidig er det muligt at se dokumentation tilføjet fra brugerne af mobil applikationen.
+
+Kræver login som er beskrevet i efterfølgende under Webapplikation
 
 ## Mobilapplikationen
 Dens primære formål at vise den origanle dokumentation efter hvilken hovedmoter der arbejdes på.
