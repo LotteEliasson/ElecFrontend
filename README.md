@@ -13,17 +13,22 @@ Samtidig er det muligt at:
   - Lave en Q/A-attest
 
 ### Efter login(beskrevet unde mobilapp længere nede) kan man via TABS-menuen i bunden af skærmen vælge 
-  1. **- Cabinet Details**
-  2.    - Scan vedlagte QR-kode
-  ..*     - Denne menu vil vise en liste af pressable komponenter, vis de trykkes på åbner en modal, hvor nye muligheder vises:
-              - Order Component (mulighed for at efterspørge det komponent der er trykket på)
-              - More Details (mulighed for at se pdf-dokumentation på komponentet
-  1. **- Picture Dokumentation**
-  2.    - Scan vedlagte GR-kode
-  ..*      - Denne menu giver mulighed for at oprette dokumentation på udført arbejde
-              - udfyld felter
-              - Tag et billede ved at trykke på kamera-ikon
-1. **Drawer menuen venstre øverst giver flere muligheder for at se detaljer om Ship, Engine, Components og Own Work**
+- **Cabinet Details**
+  - Scan vedlagte QR-kode
+   - Denne menu vil vise en liste af pressable komponenter, vis de trykkes på åbner en modal, hvor nye muligheder vises:
+    - Order Component (mulighed for at efterspørge det komponent der er trykket på)
+    - More Details (mulighed for at se pdf-dokumentation på komponentet
+- **Picture Dokumentation**
+ - Scan vedlagte GR-kode
+  - Denne menu giver mulighed for at oprette dokumentation på udført arbejde
+   - Udfyld felter
+   - Tag et billede ved at trykke på kamera-ikon
+- **Drawer menuen venstre øverst giver flere muligheder for at se detaljer om**
+  - Ship
+  - Engine
+  - Components
+  - Own Work
+  - Logout
 
 QR-KODE skal anvendes til at scanne i mobilapplikationen:
 
