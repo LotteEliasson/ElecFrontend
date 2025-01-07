@@ -12,7 +12,7 @@ Samtidig er det muligt at:
   - Dokumentere eget arbejde.
   - Lave en Q/A-attest
 
-
+### Efter login(beskrevet unde mobilapp længere nede) kan man via TABS-menuen i bunden af skærmen vælge 
 
 QR-KODE skal anvendes til at scanne i mobilapplikationen:
 
@@ -31,8 +31,8 @@ Naviger til backend-mappen og installer afhængigheder:
 cd backend  # Erstat med det faktiske mappenavn  
 npm install
 
-Opret en .env fil i roden af projektet
-### .env-filens indhold:
+###Opret en .env fil i roden af projektet
+**.env-filens indhold:**
 DB_HOST=localhost  
 DB_USER=root  
 DB_PASSWORD=<Password>  
@@ -42,7 +42,7 @@ JWT_SECRET=Love3006_ForGood3103_AllwaysRemember
 EMAIL_USER=worker24121990@gmail.com  
 EMAIL_PASS=giqprxavhbpfqgpp  
 
-Start backend:  
+### Start backend:  
 node server.js  
 
 ## Webapplikation
@@ -64,9 +64,10 @@ Naviger til mobilapplikation-mappen og installer afhængigheder:
 cd mobilapplikation  # Erstat med det faktiske mappenavn  
 npm install  
 
-Start mobilapplikationen:  
+### Start mobilapplikationen:  
 npx expo  
 
+### Login-oplysninger
 **Mobilapplikation**:  
 User: alice@example.com  
 Password: password123  
