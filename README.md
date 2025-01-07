@@ -31,7 +31,7 @@ Naviger til backend-mappen og installer afhængigheder:
 cd backend  # Erstat med det faktiske mappenavn  
 npm install
 
-###Opret en .env fil i roden af projektet
+### Opret en .env fil i roden af projektet
 **.env-filens indhold:**
 DB_HOST=localhost  
 DB_USER=root  
