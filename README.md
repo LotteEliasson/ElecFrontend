@@ -1,18 +1,21 @@
 # Electrical Parts
 Et fullstack projekt der kan håndtere hvilke elektriske komponenter der har korrekt anvendelse på en specifik hovedmotor
 
+## Udarbejdet af Lotte Facer Eliasson
+
+
 ## Webapplikationen
 Her kan udføres alle CRUD operationer, dens primære formål er at administrere databasen.
 Samtidig er det muligt at se dokumentation tilføjet fra brugerne af mobil applikationen.
 
 ## Mobilapplikationen
-Dens primære formål at vise den origanle dokumentation efter  hvilken hovedmoter der arbejdes på.
+Dens primære formål at vise den origanle dokumentation efter hvilken hovedmoter der arbejdes på.
 Samtidig er det muligt at: 
   - Efterspørge nye komponenter via en autogeneret Email
   - Dokumentere eget arbejde.
   - Lave en Q/A-attest
 
-### Efter login(beskrevet unde mobilapp længere nede) kan man via TABS-menuen i bunden af skærmen vælge 
+### Efter login (beskrevet under mobilapp længere nede) kan man via TABS-menuen i bunden af skærmen vælge 
 - **Cabinet Details**
   - Scan vedlagte QR-kode
     - Denne menu vil vise en liste af pressable komponenter, vis de trykkes på åbner en modal, hvor nye muligheder vises:
@@ -23,14 +26,14 @@ Samtidig er det muligt at:
     - Denne menu giver mulighed for at oprette dokumentation på udført arbejde
       - Udfyld felter
       - Tag et billede ved at trykke på kamera-ikon
-- **Drawer menuen venstre øverst giver flere muligheder for at se detaljer om**
+- **Drawer-menuen venstre øverst giver flere muligheder for at se detaljer om**
   - Ship
   - Engine
   - Components
   - Own Work
   - Logout
 
-QR-KODE skal anvendes til at scanne i mobilapplikationen:
+QR-KODE der skal anvendes til at scanne i mobilapplikationen:
 
 ![image](https://github.com/user-attachments/assets/fc3b4b7f-48ac-41e7-ac88-fb02ae3c8832)
 
@@ -43,7 +46,7 @@ QR-KODE skal anvendes til at scanne i mobilapplikationen:
 *(Tilføj links til de relevante GitHub-repositories her)*
 
 ## DATABASE
-### kør MySQL Script i workbench:
+### kør MySQL-Script i workbench:
 xxxxxxxxxxxx HUSK DETTE LINK TIL????
 
 ## BACKEND
@@ -57,7 +60,7 @@ npm install
 
 DB_HOST=localhost  
 DB_USER=root  
-DB_PASSWORD=<Password>  
+DB_PASSWORD= Dit eget password 
 DB_NAME=electrical_parts  
 PORT=5000  
 JWT_SECRET=Love3006_ForGood3103_AllwaysRemember  
