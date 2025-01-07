@@ -1,8 +1,7 @@
+### Projekt udarbejdet af Lotte Facer Eliasson
+
 # Electrical Parts
 Et fullstack projekt der kan håndtere hvilke elektriske komponenter der har korrekt anvendelse på en specifik hovedmotor
-
-## Udarbejdet af Lotte Facer Eliasson
-
 
 ## Webapplikationen
 Her kan udføres alle CRUD operationer, dens primære formål er at administrere databasen.
