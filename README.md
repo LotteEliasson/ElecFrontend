@@ -14,7 +14,8 @@ Samtidig er det muligt at:
 
 
 
-QR-KODE skal anvendes til at scanne i mobilapplikationen 
+QR-KODE skal anvendes til at scanne i mobilapplikationen:
+
 ![image](https://github.com/user-attachments/assets/fc3b4b7f-48ac-41e7-ac88-fb02ae3c8832)
 
 
@@ -34,6 +35,16 @@ Naviger til mobilapplikation-mappen og installer afhængigheder:
 cd mobilapplikation  # Erstat med det faktiske mappenavn  
 npm install  
 
+## .env-filens indhold
+DB_HOST=localhost  
+DB_USER=root  
+DB_PASSWORD=<Password>  
+DB_NAME=electrical_parts  
+PORT=5000  
+JWT_SECRET=Love3006_ForGood3103_AllwaysRemember  
+EMAIL_USER=worker24121990@gmail.com  
+EMAIL_PASS=giqprxavhbpfqgpp  
+
 ## Start af applikationer
 Start webapplikationen:  
 npm run dev  
@@ -44,15 +55,6 @@ node server.js
 Start mobilapplikationen:  
 npx expo  
 
-## .env-filens indhold
-DB_HOST=localhost  
-DB_USER=root  
-DB_PASSWORD=<Password>  
-DB_NAME=electrical_parts  
-PORT=5000  
-JWT_SECRET=Love3006_ForGood3103_AllwaysRemember  
-EMAIL_USER=worker24121990@gmail.com  
-EMAIL_PASS=giqprxavhbpfqgpp  
 
 ## Links til deployede versioner
 - **Webapplikation**: https://ambitious-island-0fc3ebe03.4.azurestaticapps.net  
