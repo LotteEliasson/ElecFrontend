@@ -18,8 +18,12 @@ QR-KODE skal anvendes til at scanne i mobilapplikationen:
 
 ![image](https://github.com/user-attachments/assets/fc3b4b7f-48ac-41e7-ac88-fb02ae3c8832)
 
+## Links til deployede versioner
+- **Webapplikation**: https://ambitious-island-0fc3ebe03.4.azurestaticapps.net  
+- **Mobilapplikation (kun Android)**: https://play.google.com/apps/internaltest/4701738040560284851  
 
-## GitHub Links
+
+## GitHub Links til lokal kørsel af projektet
 *(Tilføj links til de relevante GitHub-repositories her)*
 
 ## BACKEND
@@ -28,7 +32,7 @@ cd backend  # Erstat med det faktiske mappenavn
 npm install
 
 Opret en .env fil i roden af projektet
-### .env-filens indhold
+### .env-filens indhold:
 DB_HOST=localhost  
 DB_USER=root  
 DB_PASSWORD=<Password>  
@@ -42,52 +46,31 @@ Start backend:
 node server.js  
 
 ## Webapplikation
-
-
-## Installation af afhængigheder
-Naviger til backend-mappen og installer afhængigheder:  
-cd backend  # Erstat med det faktiske mappenavn  
-npm install  
-
 Naviger til webapplikation-mappen og installer afhængigheder:  
 cd webapplikation  # Erstat med det faktiske mappenavn  
-npm install  
+npm install
 
-Naviger til mobilapplikation-mappen og installer afhængigheder:  
-cd mobilapplikation  # Erstat med det faktiske mappenavn  
-npm install  
-
-## .env-filens indhold
-DB_HOST=localhost  
-DB_USER=root  
-DB_PASSWORD=<Password>  
-DB_NAME=electrical_parts  
-PORT=5000  
-JWT_SECRET=Love3006_ForGood3103_AllwaysRemember  
-EMAIL_USER=worker24121990@gmail.com  
-EMAIL_PASS=giqprxavhbpfqgpp  
-
-## Start af applikationer
-Start webapplikationen:  
+### Start webapplikationen:  
 npm run dev  
 
-Start backend:  
-node server.js  
-
-Start mobilapplikationen:  
-npx expo  
-
-
-## Links til deployede versioner
-- **Webapplikation**: https://ambitious-island-0fc3ebe03.4.azurestaticapps.net  
-- **Mobilapplikation (kun Android)**: https://play.google.com/apps/internaltest/4701738040560284851  
-
-## Login-oplysninger
+### Login-oplysninger
 **Webapplikation**:  
 User: alice@example.com  
 Password: password123  
 
+
+## Mobilapplikation
+Naviger til mobilapplikation-mappen og installer afhængigheder:  
+cd mobilapplikation  # Erstat med det faktiske mappenavn  
+npm install  
+
+Start mobilapplikationen:  
+npx expo  
+
 **Mobilapplikation**:  
 User: alice@example.com  
 Password: password123  
-Engine no: KAA008026  
+Engine no: KAA008026 
+
+
+ 
