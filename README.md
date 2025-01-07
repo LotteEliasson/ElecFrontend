@@ -13,6 +13,17 @@ Samtidig er det muligt at:
   - Lave en Q/A-attest
 
 ### Efter login(beskrevet unde mobilapp længere nede) kan man via TABS-menuen i bunden af skærmen vælge 
+  **- Cabinet Details**
+      - Scan vedlagte QR-kode
+        - Denne menu vil vise en liste af pressable komponenter, vis de trykkes på åbner en modal, hvor nye muligheder vises:
+              - Order Component (mulighed for at efterspørge det komponent der er trykket på)
+              - More Details (mulighed for at se pdf-dokumentation på komponentet
+**- Picture Dokumentation**
+      - Scan vedlagte GR-kode
+        - Denne menu giver mulighed for at oprette dokumentation på udført arbejde
+              - udfyld felter
+              - Tag et billede ved at trykke på kamera-ikon
+**Drawer menuen venstre øverst giver flere muligheder for at se detaljer om Ship, Engine, Components og Own Work**
 
 QR-KODE skal anvendes til at scanne i mobilapplikationen:
 
@@ -26,6 +37,10 @@ QR-KODE skal anvendes til at scanne i mobilapplikationen:
 ## GitHub Links til lokal kørsel af projektet
 *(Tilføj links til de relevante GitHub-repositories her)*
 
+##DATABASE
+### kør MySQL Script i workbench:
+xxxxxxxxxxxx HUSK DETTE LINK TIL????
+
 ## BACKEND
 ### Naviger til backend-mappen og installer afhængigheder:  
 cd backend  # Erstat med det faktiske mappenavn  
@@ -34,6 +49,7 @@ npm install
 
 ### Opret en .env fil i roden af projektet
 **.env-filens indhold:**
+
 DB_HOST=localhost  
 DB_USER=root  
 DB_PASSWORD=<Password>  
@@ -69,6 +85,8 @@ npm install
 
 ### Start mobilapplikationen:  
 npx expo  
+
+### 
 
 ### Login-oplysninger
 **Mobilapplikation**:  
