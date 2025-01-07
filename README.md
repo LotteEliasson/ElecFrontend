@@ -22,7 +22,7 @@ QR-KODE skal anvendes til at scanne i mobilapplikationen:
 ## GitHub Links
 *(Tilføj links til de relevante GitHub-repositories her)*
 
-##BACKEND
+## BACKEND
 Naviger til backend-mappen og installer afhængigheder:  
 cd backend  # Erstat med det faktiske mappenavn  
 npm install
