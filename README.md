@@ -42,7 +42,7 @@ QR-KODE skal anvendes til at scanne i mobilapplikationen:
 ## GitHub Links til lokal kørsel af projektet
 *(Tilføj links til de relevante GitHub-repositories her)*
 
-##DATABASE
+## DATABASE
 ### kør MySQL Script i workbench:
 xxxxxxxxxxxx HUSK DETTE LINK TIL????
 
