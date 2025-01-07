@@ -1,8 +1,18 @@
-# React + Vite
+# Electrical Parts
+Et fullstack projekt der kan håndtere hvilke elektriske komponenter der har korrekt anvendelse på en specifik hovedmotor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Webapplikationen
+Her kan udføres alle CRUD operationer, dens primære formål er at administrere databasen.
+Samtidig er det muligt at se dokumentation tilføjet fra brugerne af mobil applikationen.
 
-Currently, two official plugins are available:
+## Mobil applikationen
+Dens primære formål at vise den origanle dokumentation efter  hvilken hovedmoter der arbejdes på.
+Samtidig er det muligt at: 
+  - Efterspørge nye komponenter via en autogeneret Email
+  - Dokumentere eget arbejde.
+  - Lave en Q/A-attest
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+QR-KODE skal anvendes til at scanne i mobilapplikationen 
+![image](https://github.com/user-attachments/assets/fc3b4b7f-48ac-41e7-ac88-fb02ae3c8832)
