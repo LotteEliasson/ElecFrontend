@@ -22,6 +22,28 @@ QR-KODE skal anvendes til at scanne i mobilapplikationen:
 ## GitHub Links
 *(Tilføj links til de relevante GitHub-repositories her)*
 
+##BACKEND
+Naviger til backend-mappen og installer afhængigheder:  
+cd backend  # Erstat med det faktiske mappenavn  
+npm install
+
+Opret en .env fil i roden af projektet
+### .env-filens indhold
+DB_HOST=localhost  
+DB_USER=root  
+DB_PASSWORD=<Password>  
+DB_NAME=electrical_parts  
+PORT=5000  
+JWT_SECRET=Love3006_ForGood3103_AllwaysRemember  
+EMAIL_USER=worker24121990@gmail.com  
+EMAIL_PASS=giqprxavhbpfqgpp  
+
+Start backend:  
+node server.js  
+
+## Webapplikation
+
+
 ## Installation af afhængigheder
 Naviger til backend-mappen og installer afhængigheder:  
 cd backend  # Erstat med det faktiske mappenavn  
