@@ -107,7 +107,7 @@ https://github.com/LotteEliasson/mobileElectricalParts/blob/main/MobileFrontend/
 ### Start mobilapplikationen:  
 npx expo  
 
-### 
+### Anvend Expo Go for at se mobilapplikationen
 
 ### Login-oplysninger
 **Mobilapplikation**:  
