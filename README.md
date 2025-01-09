@@ -23,7 +23,7 @@ Samtidig er det muligt at:
     - Denne menu vil vise en liste af pressable komponenter, vis de trykkes på åbner en modal, hvor nye muligheder vises:
       - Order Component (mulighed for at efterspørge det komponent der er trykket på)
       - More Details (mulighed for at se pdf-dokumentation på komponentet
-- **Picture Dokumentation**
+- **Picture Documentation**
   - Scan vedlagte GR-kode
     - Denne menu giver mulighed for at oprette dokumentation på udført arbejde
       - Udfyld felter
@@ -35,25 +35,29 @@ Samtidig er det muligt at:
   - Own Work
   - Logout
 
+**NB Picture Documentation virker ikke efter hensigten, anvend Cabinet Details for at teste QR-kode etc.**
+
 QR-KODE der skal anvendes til at scanne i mobilapplikationen:
 
 ![image](https://github.com/user-attachments/assets/fc3b4b7f-48ac-41e7-ac88-fb02ae3c8832)
 
 ## Links til deployede versioner
-- **Webapplikation**: https://ambitious-island-0fc3ebe03.4.azurestaticapps.net  
+- **Webapplikation**: https://happy-mushroom-0ed273703.4.azurestaticapps.net
 - **Mobilapplikation (kun Android)**: https://play.google.com/apps/internaltest/4701738040560284851  
 
 
 ## GitHub Links til lokal kørsel af projektet
-*(Tilføj links til de relevante GitHub-repositories her)*
+- **Backend:** https://github.com/LotteEliasson/ElecBackend.git
+- **frontend:** https://github.com/LotteEliasson/ElecFrontend.git
+- **mobil:** https://github.com/LotteEliasson/mobileElectricalParts.git
 
 ## DATABASE
 ### kør MySQL-Script i workbench:
-xxxxxxxxxxxx HUSK DETTE LINK TIL????
+**https://github.com/LotteEliasson/ElecBackend/blob/main/create_database.sql**
 
 ## BACKEND
 ### Naviger til backend-mappen og installer afhængigheder:  
-cd backend  # Erstat med det faktiske mappenavn  
+cd ElecBackend  
 ### Installer dependencies:
 npm install
 
@@ -74,7 +78,7 @@ node server.js
 
 ## WEBAPPLIKATIONEN
 ### Naviger til webapplikation-mappen og installer afhængigheder:  
-cd webapplikation  # Erstat med det faktiske mappenavn
+cd ElecFrontend
 ### Installer dependencies:
 npm install
 
@@ -89,9 +93,16 @@ Password: password123
 
 ## MOBILAPPLIKATIONEN
 ### Naviger til mobilapplikation-mappen og installer afhængigheder:  
-cd mobilapplikation  # Erstat med det faktiske mappenavn  
+cd mobileElectricalParts/MobileFrontend  
 ### Installer dependencies:
 npm install  
+
+### API til lokal wifi ip-adresse
+**MobileFrontend/service/api.js skift:**  
+//wifi  
+const API_URL = 'http://192.168.1.83:5000/api';  
+Til egen ip-adresse: http://xxx.xxx.x.xx:5000/api   
+https://github.com/LotteEliasson/mobileElectricalParts/blob/main/MobileFrontend/sevice/api.js  
 
 ### Start mobilapplikationen:  
 npx expo  
@@ -103,6 +114,3 @@ npx expo
 User: alice@example.com  
 Password: password123  
 Engine no: KAA008026 
-
-
- 
