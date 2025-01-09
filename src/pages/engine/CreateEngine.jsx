@@ -70,7 +70,7 @@ function CreateEngine({ onEngineCreated }) {
 
   return (
     <div>
-      <Button onClick={handleShow} variant="primary">
+      <Button onClick={handleShow} variant="secondary">
         Add Engine to Database
       </Button>
 

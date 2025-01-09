@@ -148,7 +148,7 @@ function EngineList() {
                 <button
                   type="button"
                   onClick={() => handleDelete(engine)}
-                  className="btn btn-secondary btn-sm delete-button"
+                  className="btn btn-secondary btn-sm edit-button"
                 >
                   Delete
                 </button>
